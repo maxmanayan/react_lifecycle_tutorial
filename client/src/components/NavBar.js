@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu } from 'semantic-ui-react'
+import Clock from './Clock';
 
 
 const NavBar = () => {
@@ -25,6 +26,11 @@ const NavBar = () => {
       <Link to='/clock'>
         <Menu.Item active={pathname == '/clock'}>
           Clock
+        </Menu.Item>
+      </Link>
+      <Link to='/use_state_tutorial'>
+        <Menu.Item active={pathname == '/use_state_tutorial'}>
+          UseState Tutorial
         </Menu.Item>
       </Link>
     </Menu>

@@ -8,6 +8,7 @@ import About from './pages/About';
 import ComponentDemo from './pages/ComponentDemo';
 import Footer from './components/Footer';
 import Clock from './components/Clock';
+import UseStateTutorial from './pages/UseStateTutorial';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/componentDemo' component={ComponentDemo} />
           <Route exact path='/clock' component={Clock} />
+          <Route exact path='/use_state_tutorial' component={UseStateTutorial} />
         </Switch>
       </Container>
     </>

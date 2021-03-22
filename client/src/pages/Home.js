@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
+import Clock from '../components/Clock';
 
 
 // functional component -- just a JS function
