@@ -7,6 +7,7 @@ import { Container } from 'semantic-ui-react';
 import About from './pages/About';
 import ComponentDemo from './pages/ComponentDemo';
 import Footer from './components/Footer';
+import Clock from './components/Clock';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/' component={Home} />
           <Route exact path='/about' component={About} />
           <Route exact path='/componentDemo' component={ComponentDemo} />
+          <Route exact path='/clock' component={Clock} />
         </Switch>
       </Container>
     </>

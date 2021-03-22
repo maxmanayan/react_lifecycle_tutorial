@@ -22,6 +22,11 @@ const NavBar = () => {
           Component Demo
         </Menu.Item>
       </Link>
+      <Link to='/clock'>
+        <Menu.Item active={pathname == '/clock'}>
+          Clock
+        </Menu.Item>
+      </Link>
     </Menu>
   )
 }
