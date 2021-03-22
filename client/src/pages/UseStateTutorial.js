@@ -1,3 +1,5 @@
+import ListOfThings from "../components/ListOfThings"
+import LoginForm from "../components/LoginForm"
 import ReadMore from "../components/ReadMore"
 import StepTracker from "../components/StepTracker"
 
@@ -11,9 +13,11 @@ const UseStateTutorial = () => {
           and just keep taking the next step 
           towards completing it.`}
         maxLength={35}
-      />,
+      />
 
       <StepTracker />
+      <ListOfThings />
+      <LoginForm />
     </div>
   )
 }
