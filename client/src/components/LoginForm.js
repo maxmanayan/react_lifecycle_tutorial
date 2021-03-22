@@ -32,6 +32,42 @@ const LoginForm = () => {
   )
 }
 
+// setting state as an object
 
+// const LoginForm = () => {
+//   const [form, setState] = useState({
+//     username: '',
+//     password: ''
+//   })
+
+//   const printValues = (e) => {
+//     e.preventDefault()
+//     console.log(`username: ${form.username}, password: ${form.password}`)
+//   }
+
+//   const updateField = (e) => {
+//     setState({
+//       ...form,
+//       [e.target.name]: e.target.value
+//     })
+//   }
+
+//   return(
+//     <Card header='LoginForm Component'>
+//       <Form onSubmit={printValues}>
+//         <Form.Field>
+//           <label>Username</label>
+//           <input name='username' placeholder='Username' value={form.username} onChange={(updateField)}/>
+//         </Form.Field>
+//         <Form.Field>
+//           <label>Password</label>
+//           <input name='password' placeholder='Password' value={form.password} onChange={(updateField)} />
+//         </Form.Field>
+//         <br />
+//         <Button type='submit'>Submit</Button>
+//       </Form>
+//     </Card>
+//   )
+// }
 
 export default LoginForm;
