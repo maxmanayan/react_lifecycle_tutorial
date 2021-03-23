@@ -9,6 +9,10 @@ const Counter = () => {
     const interval = setInterval(function () {
       setCount((prev) => prev + 1)
     }, 1000)
+    return () => {
+      console.log('cleanup')
+      clearInterval(interval)
+    }
   }, [])
   return <p>and the counter counts {count}</p>
 }
