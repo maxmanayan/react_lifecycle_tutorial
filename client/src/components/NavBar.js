@@ -33,6 +33,11 @@ const NavBar = () => {
           UseState Tutorial
         </Menu.Item>
       </Link>
+      <Link to='/use_effect_tutorial'>
+        <Menu.Item active={pathname == '/use_effect_tutorial'}>
+          UseEffect Tutorial
+        </Menu.Item>
+      </Link>
     </Menu>
   )
 }

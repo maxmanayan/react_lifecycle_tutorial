@@ -9,6 +9,7 @@ import ComponentDemo from './pages/ComponentDemo';
 import Footer from './components/Footer';
 import Clock from './components/Clock';
 import UseStateTutorial from './pages/UseStateTutorial';
+import UseEffectTutorial from './pages/UseEffectTutorial';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route exact path='/componentDemo' component={ComponentDemo} />
           <Route exact path='/clock' component={Clock} />
           <Route exact path='/use_state_tutorial' component={UseStateTutorial} />
+          <Route exact path='/use_effect_tutorial' component={UseEffectTutorial} />
         </Switch>
       </Container>
     </>
